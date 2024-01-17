@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+.flashDealMain,
+.topCategoriesMain,
+.topRatingOrFeaturesBrands,
+.newArivalMain,
+.bigDiscountMain,
+.car,
+.mobile,
+.secondImgMain,
+.opticsWatch,
+.mainCategories,
+.forMoreMain,
+.simpleCardMain {
+    padding-bottom: 80px;
+}
+
+@media (min-width: 1280px) {
+
+    .firstNav,
+    .NavbarMainOne,
+    .sticky,
+    .stickyMainTwo,
+    .thirdNavBar,
+    .courselMain,
+    .bigDiscountMain,
+    .mainCategories,
+    .flashDealMain,
+    .secondImgMain,
+    .forMoreMain,
+    .newArivalMain,
+    .simpleCardMain,
+    .topCategoriesMain,
+    .topRatingOrFeaturesBrands,
+    .opticsWatch,
+    .mobile,
+    .car,
+    .footerMain,
+    .ShoppingCartAndFormMain {
+        max-width: 1280px;
+        margin: auto;
+    }
+
+    .newArival>div:nth-child(2)>.featureBrandCard2:nth-child(1) {
+        display: none;
+    }
+}
+
+@media (min-width: 959px) {
+    .CardModalBody {
+        max-width: 900px;
+        padding: 20px 24px;
+    }
+
+  
+}
+
+@media (min-width: 600px) {
+
+    .firstNav,
+    .NavbarMain,
+    .courselMain,
+    .NavbarMainOne,
+    .stickyMainTwo,
+    .sticky,
+    .thirdNavBar,
+    .bigDiscountMain,
+    .mainCategories,
+    .flashDealMain,
+    .secondImgMain,
+    .forMoreMain,
+    .newArivalMain,
+    .simpleCardMain,
+    .topCategoriesMain,
+    .topRatingOrFeaturesBrands,
+    .opticsWatch,
+    .mobile,
+    .car,
+    .footerMain,
+    .ShoppingCartAndFormMain,
+    .ShoppingHeader {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .CardModalSecondImg {
+        width: 100%;
+        margin: auto;
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .CardModalSecondImg>img {
+        width: 100%;
+        object-fit: contain;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 599px) {
+
+    .firstNav,
+    .NavbarMain,
+    .courselMain,
+    .NavbarMainOne,
+    .stickyMainTwo,
+    .stickyMain,
+    .sticky,
+    .thirdNavBar,
+    .bigDiscountMain,
+    .mainCategories,
+    .flashDealMain,
+    .secondImgMain,
+    .forMoreMain,
+    .newArivalMain,
+    .simpleCardMain,
+    .topCategoriesMain,
+    .topRatingOrFeaturesBrands,
+    .opticsWatch,
+    .mobile,
+    .car,
+    .footerMain,
+    .ShoppingCartAndFormMain {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .fristSlider {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sliderTxt>h1 {
+        font-size: 32px;
+    }
+
+    .carousel-item {
+        display: inline-flex;
+        justify-content: flex-start;
+    }
+
+    .newArival>div:nth-child(1)>div:nth-child(2)>.featureBrandCard2:nth-child(2) {
+        display: block;
+    }
+
+    .newArival>div:nth-child(2)>.featureBrandCard2:nth-child(1) {
+        display: none;
+    }
+
+    .newArival>div:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        gap: 0 !important;
+    }
+
+    .featureBrandCard2>.bigDiscountPrizeList {
+        display: none;
+    }
+
+    .newArival>div:nth-child(1)>div:nth-child(1) {
+        padding-bottom: 24px;
+    }
+
+    .newArival>div:nth-child(2) {
+        padding-top: 24px;
+    }
+
+    /* card */
+    .carCard {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    #cardWidth3 {
+        width: 100% !important;
+    }
+
+    .carMain {
+        display: block;
+    }
+
+    .forMoreCards {
+        flex-direction: column;
+    }
+
+    #cardWidth2 {
+        width: 100% !important;
+    }
+
+    /* card */
+
+
+    .firstCategory {
+        flex-direction: column;
+    }
+
+    .CategoryUnder {
+        width: 100% !important;
+    }
+
+    .footerDiv>div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footerPara {
+        width: 179%;
+    }
+
+    .firstNavBtnSec,
+    .firstNavIcons {
+        display: none;
+    }
+
+    .firstNavPlusIcon {
+        display: block;
+    }
+
+    .ShoppingHeader {
+        display: none;
+    }
+
+    .NavbarMainOne {
+        height: 64px;
+    }
+}
+
+@media only screen and (max-width:949px) {
+    .flashDeal>.card:nth-child(4) {
+        display: none;
+    }
+
+    .topCategories>.topCategiesImgTxt:nth-child(3) {
+        display: none;
+    }
+
+    #thirdSliderWidth {
+        width: 254%;
+    }
+}
+
+
+@media only screen and (max-width:900px) {
+    .FooterNavbar {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width:649px) {
+    #thirdSliderWidth {
+        width: 518%;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .cart {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .cartImg {
+        width: 100%;
+    }
+
+    .cratTitleICon>div:nth-child(2) {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
+
+/* @media (min-width: 280px) {
+    .CardModalSecondImg {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .CardModalSecondImg>img {
+        height: 250px;
+        object-fit: contain;
+    }
+} */

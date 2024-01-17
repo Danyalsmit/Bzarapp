@@ -1,0 +1,571 @@
+/* first navbar */
+
+#IconsActivated {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 8px;
+}
+
+.firstNavIconsTwo {
+    display: flex;
+    gap: 12px;
+}
+
+.firstNavMain {
+    background-color: #2B3445;
+}
+
+.firstNav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 8.5px 59px;
+
+}
+
+.firstNavLeft>span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.firstNavLogo {
+    background-color: #D23F57;
+    padding: 1px 11px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.firstNavTxt {
+    font-size: 13px;
+}
+
+.firstNavRight {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.firstNavBtn {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #2B3445;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    gap: 2px;
+    padding-bottom: 2px;
+}
+
+#FaAgelDown {
+    font-size: 11px;
+}
+
+.firstNavIcons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.firstNavPlusIcon {
+    display: none;
+}
+
+/* first navbar */
+
+/* ***************** */
+
+/* second navbar */
+.secondNavLogo {
+    width: 8.5%;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.secondNavLogo>img {
+    width: 100%;
+}
+
+nav {
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+}
+
+.stickyMain {
+    display: block;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    box-shadow: rgba(43, 52, 69, 0.1) 0px 4px 16px;
+    animation: 400ms cubic-bezier(0.4, 0, 0.2, 1) 0s 1 normal none running animation-1lit4vl;
+    background-color: #fff;
+}
+
+
+
+.secondNavIconSec {
+    display: flex;
+}
+
+.Avatar {
+    padding: 14px !important;
+    margin-right: 12px;
+}
+
+.secondNavIcon {
+    height: 1em;
+    display: flex;
+    align-items: center;
+}
+
+
+#secondNavSearchIcon {
+    margin: 0px 10px;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+.secNavIcon {
+
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    text-align: center;
+    flex: 0 0 auto;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    overflow: visible;
+    color: rgba(0, 0, 0, 0.54);
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    padding: 10px;
+    background-color: rgb(243, 245, 249)
+}
+
+.sidebarItemValue {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+    font-family: Open Sans, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    min-width: 20px;
+    line-height: 1;
+    padding: 0 6px;
+    height: 20px;
+    border-radius: 10px;
+    z-index: 1;
+    -webkit-transition: -webkit-transform 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: transform 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #D23F57;
+    color: #fff;
+    top: 0;
+    right: 0;
+    -webkit-transform: scale(1) translate(50%, -50%);
+    -moz-transform: scale(1) translate(50%, -50%);
+    -ms-transform: scale(1) translate(50%, -50%);
+    transform: scale(1) translate(50%, -50%);
+    transform-origin: 100% 0%;
+}
+
+.secNavIcon:active {
+    background-color: silver;
+}
+
+
+#secIcon {
+    font-size: 25px;
+}
+
+.secIcon {
+    font-size: 17px;
+}
+
+.secNavIcon:active {
+    background-color: silver;
+}
+
+.SecondNavInputMain {
+    width: 85%;
+    display: flex;
+    margin-left: 104px;
+    justify-content: center;
+}
+
+.SecondNavInput {
+    border: 1px solid #ccc;
+    width: 72%;
+    margin: auto;
+    display: flex;
+    border-radius: 28px;
+}
+
+.SecondNavInput:hover {
+    border-color: rgb(210, 63, 87);
+}
+
+
+
+.inputIcon {
+    display: flex;
+    align-items: center;
+    width: 84.666%
+}
+
+.secondNavInput {
+    width: 100%;
+}
+
+
+.secondNavInput>Input {
+    width: 100%;
+    padding: 8.5px 0px;
+    border: 0;
+    animation-duration: 10ms;
+    min-width: 0px;
+    -webkit-tap-highlight-color: transparent;
+    background: none;
+    outline: none;
+}
+
+.secNavInpBtn {
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border-width: 0px 1px 0px 0px;
+    border-top-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    margin: 0px;
+    border-radius: 0px 300px 300px 0px;
+    padding: 10px 24px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    display: flex;
+    gap: 4px;
+    height: 100%;
+    color: rgb(75, 86, 107);
+    background-color: rgb(246, 249, 252);
+    -webkit-box-align: center;
+    align-items: center;
+    white-space: pre;
+    border-right-style: solid;
+    border-right-color: rgb(218, 225, 231);
+}
+
+.secNavInpBtn:active {
+    background-color: silver;
+}
+
+/* second Navbar */
+
+/* ************* */
+
+/* third Navbar */
+
+
+.thirdNavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+    /* padding-top: 10px; */
+    cursor: pointer;
+}
+
+/* .thirdNavLeftSide {
+    width: 56vw;
+} */
+
+
+
+.thirdNavBtn {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px currentcolor;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: "Open Sans", Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    padding: 6px 8px;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: inherit;
+    min-width: 0px;
+    min-height: 0px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 278px;
+    height: 40px;
+    background-color: rgb(246, 249, 252);
+}
+
+.thirdNavBtnTwo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+    outline: 0px;
+    border: 0px currentcolor;
+    margin: 0px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: "Open Sans", Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    padding: 6px 8px;
+    border-radius: 4px;
+    min-width: 0px;
+    min-height: 0px;
+    font-weight: 600;
+    text-transform: capitalize;
+    height: 40px;
+    background-color: #fff;
+}
+
+.thirdNavBtn:active {
+    /* background-color: rgba(246, 249, 252, 0.2); */
+    background-color: silver;
+}
+
+.thirdFaAngelLeftNavbarIcon {
+    display: flex;
+    align-items: center;
+}
+
+.thirdIconTxtNavbar {
+    display: flex;
+    align-items: center;
+}
+
+#thirdNavTxt {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#thirdNavIc {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.thirdNavRightSide {
+    width: 24%;
+}
+
+/* .headerIconDiv:hover>.headertxt {
+    color: rgb(210, 63, 87)
+} */
+
+.headerIcon {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 5px;
+    opacity: 0.3;
+    height: 1.333em;
+}
+
+.headerIconTxt ul {
+    display: flex;
+    gap: 32px;
+    justify-content: end;
+}
+
+.headerIconTxt ul>li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#headertxt {
+    display: flex;
+    height: 18px;
+    align-items: flex-end;
+}
+
+
+
+/* NavbarMain css*/
+.NavbarMain {
+    display: none;
+}
+
+
+
+.shoopingIcon {
+    position: relative;
+    padding-top: 4px;
+}
+
+.stickyMain {
+    display: block;
+}
+
+/* NavbarMain  css*/
+
+
+
+/* responsive navbar */
+
+/* media query */
+
+@media only screen and (max-width: 1149px) {
+
+    .thirdNavBar,
+    .secondNavBar {
+        display: none;
+    }
+
+    .NavbarMain {
+        display: block;
+        display: flex;
+        height: 84px;
+        align-items: center;
+    }
+
+    .stickyMainTwo {
+        display: none;
+    }
+
+    .NavbarMainOne {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: block;
+        display: flex;
+        height: 84px;
+        align-items: center;
+        z-index: 1;
+        background-color: #fff;
+        box-shadow: rgba(43, 52, 69, 0.1) 0px 4px 16px;
+    }
+
+    .navFirstFaBarsIcon {
+        width: 62%;
+    }
+
+    .navFirstImg {
+        width: 4.9rem;
+    }
+
+    .navFirstImg>img {
+        width: 100%;
+    }
+
+    .navFirstIcons {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 62%;
+        gap: 17px;
+    }
+
+    #NavfaBar {
+        font-size: 19px;
+        margin-left: 9px;
+        opacity: 0.5;
+    }
+
+    .navbars {
+        border-bottom: none !important;
+    }
+
+    #faSearch,
+    #faUser,
+    #faShop {
+        opacity: 0.5;
+    }
+
+    #faSearch {
+        font-size: 21px;
+    }
+
+    #faUser {
+        font-size: 18px;
+    }
+
+    #faShop {
+        font-size: 21px;
+        margin-right: 7px;
+    }
+
+    .sidebarItemValue {
+        position: absolute;
+        top: 5px;
+        right: 8px;
+    }
+
+    .stickyMain {
+        display: none;
+    }
+}
+
+
+/* responsive navbar */

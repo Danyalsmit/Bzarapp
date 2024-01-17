@@ -1,0 +1,669 @@
+.carMain {
+    display: flex;
+    gap: 25px;
+}
+
+.carCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 26px;
+    align-items: center;
+}
+
+.carHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* categories page css */
+
+
+.categoryTxtIcon {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+
+#categoryIcon1 {
+    font-size: 24px;
+    color: #D23F57;
+}
+
+.categoryTitle {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.categoryUnderTxtIcon1 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.categoryUnderTxtIcon2 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #7D879C;
+    cursor: pointer;
+}
+
+#categoryIcon2 {
+    display: flex;
+    align-items: center;
+    color: #7D879C;
+}
+
+.firstCategory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+
+.CategoryUnder {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgb(3 0 71 / 9%);
+    display: flex;
+    align-items: center;
+    width: 14.8888888%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.CategoryUnder:hover {
+    box-shadow: 0px 8px 45px rgb(3 0 71 / 9%);
+}
+
+/* categories page css */
+
+
+/* forMoreMain page css */
+
+
+.forMoreCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+/* forMoreMain page css */
+
+/* footerMain page css */
+.footerMain {
+    padding: 16px 0;
+}
+
+.footerDiv {
+    display: flex;
+    padding: 80px 0;
+    font-family: Open sans;
+}
+
+.footerDiv>div {
+    display: flex;
+    width: 50%;
+
+}
+
+.footerIcon {
+    display: flex;
+    gap: 15px;
+}
+
+.footerIcon>.footerIconPlayStore:nth-child(2)>#footerPlayStoreImgTxt {
+    padding-bottom: 9px;
+}
+
+.footerIconPlayStore {
+    width: 150px;
+}
+
+#footerPlayStoreImgTxt {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background-color: #161d2b;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+#footerPlayStoreImg {
+    padding-top: 6px;
+}
+
+#footerPlayStoreTxt {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+#footerPlayStoreTxt>span {
+    font-weight: 700;
+}
+
+.footerAbout {
+    width: 33%;
+}
+
+.footerPara,
+#FooterAboutTxts,
+#FooterCustomerCareTxts,
+#footerContactUsPara,
+#footerContactUsEmail,
+#footerContactUsPhoneNum {
+    color: #AEB4BE;
+}
+
+.footerPara {
+    padding: 20px 0;
+    font-size: 13.666px;
+    white-space: initial;
+    width: 100%;
+    line-height: 23px;
+}
+
+#FooterAboutTitle,
+#FooterCustomerCareTitle,
+#footerContactUsTitle {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#FooterCustomerCarePara {
+    padding: 4.5px 0;
+    cursor: pointer;
+}
+
+#FooterCustomerCarePara:hover {
+    color: #fff;
+}
+
+#footerContactUsPara {
+    font-size: 13.555px;
+    white-space: initial;
+    width: 85%;
+}
+
+#footerContactUsPara,
+#footerContactUsEmail,
+#footerContactUsPhoneNum {
+    padding: 4.5px 0;
+}
+
+#footerContactUsPhoneNum {
+    margin-bottom: 4.8px;
+}
+
+#footerConatctIcon {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 50%;
+    overflow: visible;
+    color: rgba(0, 0, 0, 0.54);
+    -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    margin: 4px;
+    font-size: 12px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#footerConatctIcon:hover {
+
+    background-color: rgba(0, 0, 0, 0.04)
+}
+
+#footerConIcon {
+    color: #fff;
+}
+
+.footerTxtIcon {
+    width: 100%;
+}
+
+.footerTxtIcon,
+.footerAbout,
+.footerCustomerCare,
+.footerContactUs {
+    padding: 0 35px;
+}
+
+.footerAbout {
+    width: 38%;
+}
+
+#smallTxt {
+    font-size: 9px;
+}
+
+@media only screen and (max-width: 1279px) {
+
+    /* footer css*/
+    .footerDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerDiv>div:nth-child(1) {
+        padding-bottom: 20px;
+    }
+
+    .footerDiv>div {
+        width: 100%;
+    }
+
+    .footerTxtIcon,
+    .footerCustomerCare {
+        width: 56%;
+    }
+
+    .footerTxtIcon,
+    .footerAbout,
+    .footerCustomerCare,
+    .footerContactUs {
+        padding: 0;
+    }
+
+    .footerPara {
+        width: 78%;
+    }
+
+    /* footer css*/
+
+    /* topRatingOrFeaturesBrands */
+    .topRatingOrFeaturesBrands {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newArival {
+        flex-direction: column;
+        gap: 0 !important;
+    }
+
+    .newArival>div:nth-child(2)>.featureBrandCard2 {
+        width: 23.5%;
+    }
+
+    .newArival>div:nth-child(2)>.featureBrandCard2:nth-child(1) {
+        display: none;
+    }
+
+    .featuredBrandsMain {
+        width: 50%;
+    }
+
+    .newArival>div:nth-child(2)>.featureBrandCard2>.bigDiscountPrizeList {
+        display: none;
+    }
+
+    /* topRatingOrFeaturesBrands */
+
+    /* cards */
+    #cardWidth3 {
+        width: calc(50% - 13px);
+    }
+
+    #cardWidth2 {
+        width: calc(33% - 15px);
+        min-width: 240px;
+    }
+
+    /* cards */
+
+
+
+    .simpleCardMain {
+        flex-direction: column;
+    }
+
+    .simpleCardMain>div {
+        width: 100%;
+    }
+
+    .simpleCardPara {
+        max-width: 80%;
+    }
+
+
+    .CategoryUnder {
+        width: calc(25% - 20px);
+    }
+}
+
+@media only screen and (max-width:658px) {
+    .footerIcon {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:959px) {
+    .topRatingCard {
+        flex-direction: column;
+        /* gap: 0!important; */
+    }
+
+    .RatingCard {
+        width: 48%;
+    }
+
+    .featuredBrandsMain {
+        width: 100%;
+    }
+
+    .newArival>div:nth-child(1)>div:nth-child(2)>.featureBrandCard2:nth-child(2) {
+        display: none;
+    }
+
+    .newArival>div:nth-child(2)>.featureBrandCard2 {
+        width: 100%;
+    }
+
+    .newArival>div:nth-child(2)>.featureBrandCard2:nth-child(1) {
+        display: block;
+    }
+
+    /* card */
+    .cardButton {
+        display: none !important;
+    }
+
+    /* card */
+
+    /* images */
+    .secondImg {
+        flex-direction: column;
+    }
+
+    .secondImg>.secondImgDiv:nth-child(2) {
+        width: 100% !important;
+    }
+
+    /* images */
+
+    /* card  */
+
+    #cardWidth2 {
+        width: calc(50% - 13px);
+    }
+
+    .simpleCardMain>div {
+        flex-direction: column;
+    }
+
+    .simpleCard {
+        width: calc(100% - 4px);
+    }
+
+    /* card  */
+
+    .CategoryUnder {
+        width: calc(35% - 32px);
+    }
+
+
+    .ShoppingCartAndFormMain {
+        flex-direction: column;
+    }
+
+    .ShoppingCart,
+    .Shopping {
+        width: 100% !important;
+    }
+
+    .Shopping {
+        margin-top: 0 !important;
+    }
+
+    .CardModalBody {
+        flex-direction: column;
+    }
+
+
+}
+
+/* footerMain page css */
+
+/* flashDeal css */
+
+.flashDeal {
+    position: relative;
+}
+
+.cardIndicator {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.topCardIndicator {
+    position: absolute;
+    top: 38%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+#NextIcon {
+    position: absolute;
+    right: -15px;
+    font-size: 40px;
+    color: #0F3460;
+}
+
+#PrevIcon {
+    position: absolute;
+    left: -15px;
+    font-size: 40px;
+    color: #0F3460;
+}
+
+/* flashDeal css */
+
+/* top Categories css */
+.topCategiesImgTxt>img {
+    width: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+    height: auto;
+}
+
+.topCategiesImgTxt>img:hover {
+    filter: brightness(65%);
+    opacity: 1;
+}
+
+.topCategiesImgTxt {
+    position: relative;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+    background-color: #fff;
+}
+
+.topCategoriesTxt {
+    position: absolute;
+    top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topCategories {
+    position: relative;
+}
+
+#topCategoriesTxt1 {
+    background-color: #0F3460;
+    color: #fff;
+    border-radius: 14px;
+    font-size: 10px;
+    padding: 5px 8px;
+}
+
+#topCategoriesTxt2 {
+    background-color: rgba(0, 0, 0, 0.08);
+    color: #000;
+    border-radius: 14px;
+    font-size: 10px;
+    padding: 5px 8px;
+}
+
+/* top Categories css */
+
+
+/* Top Rating Card css*/
+
+.topRatingCard {
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+}
+
+.topRatingCard>div {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.topRating {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.featureCard {
+    display: flex;
+    gap: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.topRatingOrFeaturesBrands {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+/* Top Rating Card css*/
+
+/* newArival css */
+.newArival {
+    display: flex;
+    gap: 25px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.newArival>div:nth-child(1)>div {
+    display: flex;
+    gap: 25px;
+}
+
+.newArival>div {
+    display: flex;
+    gap: 25px;
+}
+
+/* newArival css */
+
+/* bigDiscountCard css */
+.bigDiscountCard {
+    position: relative;
+}
+
+/* bigDiscountCard css */
+
+/* all classes max width set */
+
+
+
+
+.simpleCardMain {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.secondImg {
+    display: flex;
+    gap: 25px;
+}
+
+.secondImg>.secondImgDiv:nth-child(2) {
+    width: 67%;
+}
+
+
+.secondImgDiv>img {
+    width: 100%;
+    height: 100%;
+}
+
+#HeaderIcon {
+    font-size: 24px;
+    color: #D23F57;
+}
+
+#HeaderIconThree {
+    font-size: 30px;
+    color: #FF9101;
+}
+
+#HeaderIconTwo {
+    font-size: 24px;
+    color: #FAB400;
+}
