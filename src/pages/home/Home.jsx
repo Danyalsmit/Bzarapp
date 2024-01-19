@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import FirstNavbar from "../../Components/navbars/FirstNavbar";
 import Navbar from "../../Components/navbars/Navbar";
 import SecondNavbar from "../../Components/navbars/SecondNavbar";
@@ -22,6 +22,21 @@ import { Link } from "react-router-dom";
 import FooterNavbar from "../../Components/navbars/FooterNavbar";
 
 const Home = () => {
+
+  useEffect(() => {
+    const jobid = localStorage.getItem("user") && JSON.parse(localStorage.getItem("user"));
+    console.log(jobid);
+    // axios
+    //   .get(`https://fair-cyan-abalone-gown.cyclic.app/api/apply/apply/${jobid}`)
+    //   .then((res) => {
+    //     console.log("first,res", res);
+    //     console.log("Fetch successful!");
+    //     setUserCateg(res.data.user);
+    //   })
+    //   .catch((error) => {
+    //     console.error("Fetch failed:", error);
+    //   });
+  }, []);
   return (
     <div className="main">
       <div>

@@ -1,43 +1,53 @@
 import Button from "../../Components/button/Button";
 import React, { useState } from "react";
+import axios from "axios";
+import { BsCheckLg } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
+
+
+
 function Login() {
-  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loginError, setLoginError] = useState("");
-  const [signinError, setSigninError] = useState("");
+  const navigate = useNavigate();
+
 
   const handleLogin = (e) => {
     e.preventDefault();
 
-    if (username === "user" && password === "password") {
+    if (email === "email" && password === "password") {
       setLoginError("");
       alert("Login successful!");
     } else {
       setLoginError("Invalid username or password");
     }
+  };
+const  loged  = async(e)=>{
+
+
+  try {
+ const {data} = await axios.post(`http://localhost:8000/api/user/login`, { email: email, password })
+ if(data){
+   console.log(data,"newe");
+   localStorage.setItem('user', JSON.stringify({ token: data?.token, userId: data?.userId }));
+   navigate("/");
   }
-  const handleSignup = (e) => {
-    e.preventDefault();
-
-    if (username === "user" && password === "password") {
-        setSigninError("");
-      alert("signup successful!");
-    } else {
-        setSigninError("Invalid username or password");
-    }
-};
-
+  } catch (error) {
+    console.error("Fetch failed:", error);
+  }
+}
   return (
     <div>
-        { false  ? <h2>Login</h2>:<h2>signnup</h2>}
-      <form onSubmit={handleSignup}>
+      <h2>Login</h2>
+      <form onSubmit={handleLogin}>
         <div>
-          <label htmlFor="username">Username:</label>
+          <label htmlFor="setEmail">Email:</label>
           <input
             type="text"
-            id="username"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
+            id="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             required
           />
         </div>
@@ -51,8 +61,8 @@ function Login() {
             required
           />
         </div>
-        {loginError ? <p style={{ color: "red" } }>{loginError}</p> : loginError ? <p style={{ color: "red" } }>{signinError}</p> : null}
-        <Button value="submit" className="secNavInpBtn" />{" "}
+        {loginError ? <p style={{ color: "red" }}>{loginError}</p> : null}
+        <Button onClick={loged} value="submit" className="secNavInpBtn" />{" "}
       </form>
     </div>
   );
