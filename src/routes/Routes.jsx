@@ -11,17 +11,17 @@ const Routes = () => {
 
   return (
     <MyRoutes>
-      {jobid ? (
+      {/* {jobid ? ( */}
         <>
           <Route path="/" element={<Home />} />
           <Route path="/Cart" element={<ShopingPage />} />
         </>
-      ) : (
+       {/* ) : (
         <>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
         </>
-      )}
+      )} */}
     </MyRoutes>
   );
 };
